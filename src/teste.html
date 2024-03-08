@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Caminhos</title>
+</head>
+<body>
+    <h1>Dobot Caminhos</h1>
+    <p>Esta é a página sobre a minha aplicação web.</p>
+    <p>Ola {{ ponto }}!!</p>
+    <h2>Posts</h2>
+    <ul>
+        {% for post in posts %}
+            <li>{{ post.ponto }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
